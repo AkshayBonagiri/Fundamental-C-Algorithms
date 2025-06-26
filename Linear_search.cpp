@@ -20,3 +20,4 @@ int search_array(int my_array[], int size, int mynum) {
     }
     return -1; // Return -1 if not found
 }
+//time complexity = O(n)
