@@ -1,44 +1,75 @@
-📘 C++ Array Operations: Search & Sort
+# 📘 C++ Algo Basics
 
-✅ Description
-This project contains two fundamental programs in C++:
+A collection of fundamental C++ programs demonstrating core algorithmic concepts such as searching, sorting, and array manipulation. This repository is intended for beginners and intermediate learners to understand and practice essential data structure and algorithm techniques.
 
-- Linear Search – Finding an element in an array.
-- Bubble Sort – Sorting an array in ascending order.
+---
 
-📌 Things I Learned
+## 📂 Contents
 
-1️⃣ Arrays in C++
-- Declaring and initializing arrays.
-- Calculating the size of arrays using:
+| Filename                          | Description                             |
+|----------------------------------|-----------------------------------------|
+| `Binary_Search_Algo.cpp`         | Iterative binary search implementation  |
+| `Binary_Search_using_Recursion.cpp` | Recursive binary search example       |
+| `Linear_search.cpp`              | Basic linear search on an array         |
+| `Largest_&_Smallest_in_Array.cpp` | Finds the largest and smallest elements |
+| `Unique_Values.cpp`              | Identifies unique values in an array    |
+| `sort_element.cpp`               | Sorts elements in ascending order       |
+| `sum_and_product.cpp`            | Computes sum and product of array items |
 
-int size = sizeof(array) / sizeof(array[0]);
+---
+---
 
-2️⃣ Linear Search
-- Finding an element in an array one-by-one.
-- Returning the index of the element if found.
-- Returning -1 if the element is not found.
+## 🧠 Algorithms Covered
 
-3️⃣ Bubble Sort
-- Comparing adjacent elements and swapping if they are in the wrong order.
-- Nested loops for multiple passes through the array.
+This repository covers a range of basic and essential algorithms that are commonly asked in interviews and foundational in programming:
 
-4️⃣ Swapping Elements
+### 🔍 Searching Algorithms
+- **Linear Search**: Scans the array element-by-element to find a target value.
+- **Binary Search**: Efficiently finds a target in a sorted array by dividing the search range in half. Implemented both iteratively and recursively.
 
-int temp = array[j];
-array[j] = array[j+1];
-array[j+1] = temp;
+### 📊 Sorting Techniques
+- **Basic Sorting**: Demonstrates sorting logic (like selection sort or bubble sort) to arrange elements in ascending order.
 
-5️⃣ for-each Loop
-Useful for printing arrays cleanly:
+### 📈 Array-Based Logic
+- **Finding Max/Min**: Identifies the largest and smallest numbers in an array.
+- **Unique Values Detection**: Detects and prints unique elements from a list.
+- **Sum and Product**: Calculates the total sum and product of array elements.
 
-for (int element : array)
-    std::cout << element;
+These programs build a strong foundation in algorithmic thinking and pave the way for more advanced topics like recursion, dynamic programming, and data structures.
 
-6️⃣ Functions
-- Creating and using functions to make code reusable and organized.
 
-✨ Next Steps
-- Learn and implement Binary Search.
-- Practice Selection Sort and Insertion Sort.
-- Explore std::sort() from the <algorithm> library for efficient sorting.
+## 🔧 Requirements
+
+- C++11 or above
+- A C++ compiler like `g++` or any IDE supporting C++
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   cd repo-name
+   ```
+
+2. Compile and run any `.cpp` file:  
+   ```bash
+   g++ filename.cpp -o output
+   ./output
+   ```
+
+---
+
+## 📚 Purpose
+
+This repository serves as a practice ground for:
+- Learning and implementing common algorithms
+- Understanding time complexity
+- Preparing for technical interviews and coding tests
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
